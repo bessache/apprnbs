@@ -1,0 +1,10 @@
+
+.home {
+  text-align: center;
+}
+
+body{
+  font: 400 14px Roboto,Montserrat,Baloo, sans-serif;
+  background: #6b7a8f;
+  -webkit-font-smoothing: antialiased;
+}
