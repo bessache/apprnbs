@@ -5,6 +5,10 @@
 
 body{
   font: 400 14px Roboto,Montserrat,Baloo, sans-serif;
-  background: #6b7a8f;
+  background: #dcc7aa;
   -webkit-font-smoothing: antialiased;
+}
+nav{
+  background-color: #f7c331;
+  height: 40px;
 }
