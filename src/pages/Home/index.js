@@ -1,6 +1,5 @@
 import React, {useState, Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import './styles.css';
 import {
   Collapse,
@@ -33,20 +32,7 @@ class App extends Component {
   render() {
       return (
           <div>
-              <Navbar color="ligth" light expand="md">
-                  <NavbarBrand href="/">reactstrap</NavbarBrand>
-                  <NavbarToggler onClick={this.toggle} />
-                  <Collapse isOpen={this.state.isOpen} navbar>
-                      <Nav className="ml-auto" navbar>
-                          <NavItem>
-                              <NavLink href="/components/">Components</NavLink>
-                          </NavItem>
-                          <NavItem>
-                              <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-                          </NavItem>
-                      </Nav>
-                  </Collapse>
-              </Navbar>
+              <nav class="navbar navbar-default" role="navigation"></nav>
           </div>
       );
   }
